@@ -22,7 +22,7 @@ dict()          Returns a dictionary (Array)
 dir()	          Returns a list of the specified object's properties and methods
 divmod()	      Returns the quotient and the remainder when argument1 is divided by argument2
 enumerate()	    Takes a collection (e.g. a tuple) and returns it as an enumerate object
-eval()          evaluates and executes an expression
+eval()          evaluates and executes an expression also help to get user input as it is
 exec()	        Executes the specified code (or object)
 filter()        Use a filter function to exclude items in an iterable object
 float()         Returns a floating point number
