@@ -45,3 +45,54 @@ translate()	Returns a translated string
 upper()	Converts a string into upper case
 zfill()	Fills the string with a specified number of 0 values at the beginning
 Note: All string methods returns new values. They do not change the original string.
+
+
+Use of above methods
+
+
+o = 'hi my name is "India"'
+print('o = ', o)
+print('Output of capitalize() method :', o.capitalize())
+print('Output of casefold() method :', o.casefold())
+print('Output of center() method :', o.center(25, "$"))
+print('Output of len() method :', len(o))
+print('Output of count() method :', o.count("E"))
+print('Output of encode() method :', o.encode())
+print('Output of endswith() method :', o.endswith('E'))
+print('Output of endswith() method :', o.endswith('"'))
+print('Output of find() method :', o.find('E'))
+print('Output of rfind() method :', o.rfind('E'))
+p='Hello my name is {} {}' # this string is taken only to use format method
+print('Output of format() method :', p.format('Ovee', 'Naikwade'))
+#print('Output of format_map() method :', p.format_map())
+print('Output of index() method :', o.index('m'))
+print('Output of rindex() method :', o.rindex('m'))
+print('Output of isalnum() method :', o.isalnum())
+print('Output of isalpha() method :', o.isalpha())
+print('Output of isascii() method :', o.isascii())
+print('Output of isdecimal() method :', o.isdecimal())
+print('Output of isdigit() method :', o.isdigit())
+print('Output of isidentifier() method :', o.isidentifier())
+print('Output of islower() method :', o.islower())
+print('Output of isnumeric() method :', o.isnumeric())
+print('Output of isprintable() method :', o.isprintable())
+print('Output of isspace() method :', o.isspace())
+print('Output of istitle() method :', o.istitle())
+print('Output of isupeer() method :', o.isupper())
+print('Output of ljust() method :', o.ljust(30, "$"))
+print('Output of rjust() method :', o.rjust(30, "$"))
+print('Output of lower() method :', o.lower())
+print('Output of upper() method :', o.upper())
+print('Output lstrip() method :', o.lstrip())
+print('Output lstrip() method :', o.lstrip())
+print('Output replace() method :', o.replace("E", "I",1))
+print('Output split() method :', o.split())
+a = o.split()
+print("a = ", a)
+s1 = " "
+print('Output join() method :', s1.join(a))
+print('Output startswith() method :', o.startswith("h"))
+print('Output startswith() method :', o.startswith("a"))
+print('Output swapcase() method :', o.swapcase())
+print('Output title() method :', o.title())
+print('Output zfill() method :', o.zfill(5))
