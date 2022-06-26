@@ -1,3 +1,4 @@
+List is Data Type in Python. It is Mutable and backgound data structure is array, so It is Ordered, Changable and allows duplicate Values. it also support indexing.
 Method	Description
 append()	Adds an element at the end of the list
 clear()	Removes all the elements from the list
