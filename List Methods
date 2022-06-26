@@ -1,0 +1,50 @@
+Method	Description
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
+
+use of list methods and there outputs are as follows
+
+list_1 = [ 'a', 'b', 'c', 1, 2, 3]
+print('list_1 =' , list_1 )
+l_1 = list_1
+l = list_1.copy()
+print(l_1)
+print("id of list_1 :", id(list_1))
+print("id of l_1 :", id(l_1))
+print("id of l :", id(l))
+
+print('Output of append() method :', l.append(4))
+print('list after append() :', l)
+print('Output of count() method :', l.count('a'))
+print('Output of extend() method :', l.extend(['e','f','g',4, 5,6]))
+print('list after extend() :', l)
+print('Output of l.index(4) :', l.index(4),'#it gives index of item')
+print("Output of l.insert(5,'s') :", l.insert(5,'s'),'#it adds s at index 5 and return None')
+print("list after l.insert(5, 's') :", l)
+print("Output of l.pop() :", l.pop(),'   --#it remove and return the last item from list ')
+print("Output of l.pop(10) :", l.pop(10),'   --#it remove and return the item at 10th index from list ')
+print("Output of l.remove(1) :", l.remove(1),'   --#it remove the first element with specific value and return None')
+print("list after l.remove(1) :", l)
+#print("Output of l.remove() :", l.remove(8),'   --#if value is not present in list, it doesnot raise error')
+print("Output of l.reverse() :", l.reverse(),'   --#it reverse the order of list')
+print('list after l.reverse() :', l)
+print(list(reversed(l)), "-This is the output of list(reversed(l))")
+print(l, "- Built in function reversed(), don't changes original list, output is temp. ")
+h=[1,4,7,8,5,2,3,6,9]
+print("h = ", h)
+print("Output of h.sort() :", h.sort(), '   --#it sorts the list in ascending order and return None')
+print(h)
+print("Output of h.sort(reverse=True) :", h.sort(reverse=True), '   --#it sorts the list in descending order and return None')
+print(h)
+print("Output of l.clear() :", l.clear(), "--It removes all elements form list and return None")
+print("List after l.clear() \nl = ", l)
