@@ -17,3 +17,42 @@ update()	Updates the dictionary with the specified key-value pairs
 values()	Returns a list of all the values in the dictionary
 
 
+d = {1 : 'ABC  ', 2  : 'DEF', 3 : 'GHI', 4 : 'JKL'}
+print(d)
+print(type(d))
+e = d.copy()
+print(e)
+print("Output of d.copy() :", d.copy(), "--It copy dict. to a new dictionary")
+x= [ 5, 6, 7 ]
+y = ('Shirol')
+f = d.fromkeys(x,y)
+print("Output of d.fromkey(x, y) :", f, "--It return a dictionary with specified key and value")
+print("Output of d.get(2) is :", d.get(2), "--It returns value of specified key")
+print("Output of d.items() :", d.items(), "--It returns the tuple of each key value pair present in dict.")
+print("Output of d.keys() :", d.keys(), "--It returns a list of all Keys present in dict.")
+print("Output of d.pop(1) :", d.pop( 1 ), "--It removes and returns a value of specified key from dict.")
+print("Output of d.popitem() :", d.popitem(  ), "--It removes and returns last inserted key : value pair")
+g = d.setdefault('11', 'xyz')
+print("After using setdefault ('11', 'xyz')", g)
+
+print("Output of d.update(5 : 'mno') : ", d.update({5 : 'mno'}), "--It update dict. with specified key: value pair and return None")
+print ("After d.update(5 : 'mno') d = ", d)
+
+print("Output of d.values() >>>   ", d.values(), "   <<<  --It returns List of all values in dict.")
+
+Output>>>
+
+{1: 'ABC  ', 2: 'DEF', 3: 'GHI', 4: 'JKL'}
+<class 'dict'>
+{1: 'ABC  ', 2: 'DEF', 3: 'GHI', 4: 'JKL'}
+Output of d.copy() : {1: 'ABC  ', 2: 'DEF', 3: 'GHI', 4: 'JKL'} --It copy dict. to a new dictionary
+Output of d.fromkey(x, y) : {5: 'Shirol', 6: 'Shirol', 7: 'Shirol'} --It return a dictionary with specified key and value
+Output of d.get(2) is : DEF --It returns value of specified key
+Output of d.items() : dict_items([(1, 'ABC  '), (2, 'DEF'), (3, 'GHI'), (4, 'JKL')]) --It returns the tuple of each key value pair present in dict.
+Output of d.keys() : dict_keys([1, 2, 3, 4]) --It returns a list of all Keys present in dict.
+Output of d.pop(1) : ABC   --It removes and returns a value of specified key from dict.
+Output of d.popitem() : (4, 'JKL') --It removes and returns last inserted key : value pair
+After using setdefault ('11', 'xyz') xyz
+Output of d.update(5 : 'mno') :  None --It update dict. with specified key: value pair and return None
+After d.update(5 : 'mno') d =  {2: 'DEF', 3: 'GHI', '11': 'xyz', 5: 'mno'}
+Output of d.values() >>>    dict_values(['DEF', 'GHI', 'xyz', 'mno'])    <<<  --It returns List of all values in dict.
