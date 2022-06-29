@@ -1,0 +1,22 @@
+Method	Description
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+
+
+use of the above methods
+
+t = (1, 2, 3, 4, 'a', 'b', 'c')
+print(type(t))
+print(t)
+print(t.count(1))
+print(t.index('a'))
+print(len(t))
+
+
+Output
+
+<class 'tuple'>
+(1, 2, 3, 4, 'a', 'b', 'c')
+1
+4
+7
