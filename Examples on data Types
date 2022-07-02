@@ -253,11 +253,3 @@ for dict_key, dict_value in d.items():
     print(dict_key,'->',dict_value)
 ============***************=============************============********===========	
 '''
-
-s1 = "Twinkle, twinkle, little star,\n\t How I wonder what you are! \n\t\tUp above the world so high, \n\t\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are"
-print(s1)
-for i in s1:
-    if i.isupper() and i != 'I' :
-        print('\n\t', i, end="")
-    else:
-        print(i, end = "" )
