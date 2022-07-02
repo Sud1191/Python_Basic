@@ -1,4 +1,6 @@
-Method	Description
+String is a Global datatype in python
+any thing in between ' ' or " " or ''' ''' is a string
+Method	Description 
 capitalize()	Converts the first character to upper case
 casefold()	Converts string into lower case
 center()	Returns a centered string
