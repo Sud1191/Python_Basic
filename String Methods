@@ -100,3 +100,4 @@ print('Output title() method :', o.title())
 print('Output zfill() method :', o.zfill(5))
 
 All String methods returns a new string. They do not change the original string.
+update
