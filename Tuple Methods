@@ -12,7 +12,6 @@ print(t.count(1))
 print(t.index('a'))
 print(len(t))
 
-
 Output
 
 <class 'tuple'>
