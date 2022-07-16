@@ -1,4 +1,4 @@
-String is a Global datatype in python
+String is a Global datatype in python is immutable
 any thing in between ' ' or " " or ''' ''' is a string
 Method	Description 
 capitalize()	Converts the first character to upper case
