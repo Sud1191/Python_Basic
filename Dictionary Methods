@@ -40,7 +40,7 @@ print ("After d.update(5 : 'mno') d = ", d)
 
 print("Output of d.values() >>>   ", d.values(), "   <<<  --It returns List of all values in dict.")
 
-Output>>>
+Output ==>
 
 {1: 'ABC  ', 2: 'DEF', 3: 'GHI', 4: 'JKL'}
 <class 'dict'>
